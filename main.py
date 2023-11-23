@@ -1,7 +1,7 @@
 from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 import openai
 
-openai.api_key = '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'
+openai.api_key = 'MIKwasHere'
 
 config_list = config_list_from_json(env_or_file="OAI_CONFIG_LIST")
 assistant = AssistantAgent("assistant", llm_config={"config_list": config_list})
